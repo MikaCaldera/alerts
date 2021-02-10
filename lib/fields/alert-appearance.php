@@ -7,6 +7,8 @@ if (function_exists('acf_add_local_field_group')) :
     'fields' => array(
         array(
             'choices' => array(
+                'primary' => 'Primary',
+                'secondary' => 'Secondary',
                 'success' => 'Success',
                 'info' => 'Info',
                 'warning' => 'Warning',
