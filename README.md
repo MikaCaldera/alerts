@@ -6,13 +6,13 @@ Add following snippet to your site:
 
   `{
 	"type": "vcs",
-	"url": "git@github.com:MikaCaldera/alerts-wp.git"
+	"url": "git@github.com:MikaCaldera/alerts.git"
 	}`
 
 
 In your site folder run the following command.
 
-	composer require "mikacaldera/alerts-wp"
+	composer require "mikacaldera/alerts"
 
 ## :triangular_ruler: Use
 
