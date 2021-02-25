@@ -22,3 +22,6 @@ $options = [
 $alerts = new PostType($names, $options);
 // Set post type dashicon
 $alerts->icon('dashicons-warning');
+
+// Register the "alerts" post type with WordPress
+$alerts->register();
